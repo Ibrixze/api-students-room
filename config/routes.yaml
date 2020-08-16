@@ -1,3 +1,9 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+
+# active_user:
+#         path: api/users/{id}/active
+#         controller: App\Controller\Api\EneableUser
+#         methods: GET
